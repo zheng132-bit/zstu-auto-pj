@@ -23,20 +23,6 @@
 node main.js
 ```
 
-如果只想先看看会评哪些课、不会真提交,把文件末尾的入口换一下(默认就是只列课程不提交):
-
-```js
-// 仅查看课程列表
-get_course().then(courses => console.log(courses))
-
-// 真的批量提交
-// get_course().then(submit)
-```
-
-## 常见问题
-
-**Q: 跑出来提示的不是"提交成功"而是登录页?**  
-Cookie 过期了(通常 30 分钟无操作会失效),重新登录复制一份新的 Cookie。
 
 
 
